@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 10px 20px 20px;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('https://sb.kaleidousercontent.com/67418/960x550/d1e78c2a25/individuals-a.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.676);
+}
+
+.mainNav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 10px;
+    color: black;
+}
+.navbar a:hover {
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.container h1{
+font-size: 88px;
+margin-top: -100x;
+}
+.container h1:hover {
+    color: blue;
+}
+
+.container p {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 0px 110px 0px 10px;
+    font-weight: 400px;
+    line-height: 2;
+}   
+.container p:hover {
+    color:  red;
+    font-size: 16px;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    font-size: 18px;
+    width: 300px;
+    height: 45px;
+    border-radius: 30px;
+    padding-top: 12px;
+    border: 1px solid grey;
+}
+.btn:hover{
+    background-color: #008f7a;
+    color: white;
+}
+
+.top {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 10px;
+    justify-items: center;
+    background-color: rgba(0, 0, 0, 0.274);
+}
+
+.add2 {
+    display: flex;
+}
+
+.hh {
+
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+}
+.fname {
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.button {
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+.button:hover {
+    background-color: #008f7a;
+    color: white;
+}
